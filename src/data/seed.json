@@ -1,0 +1,4747 @@
+{
+ "generatedFrom": {
+  "buyers": "craigslist-buyers-2026-10-29.csv + buyers-call-ready-2026-10-29.csv",
+  "leadSample": "best-of-the-best-top50-2026-10-23.csv + st-louis-best-of-the-best-2026-10-25.csv",
+  "marketCounts": "virtual-lead-bucket.csv (counts only; full file is migrated via Supabase — see scripts/import-csv-notes.md)"
+ },
+ "bucketTotals": {
+  "totalLeads": 1658,
+  "perMarket": {
+   "Memphis": 1331,
+   "Cleveland": 159,
+   "Indianapolis": 103,
+   "Houston": 46,
+   "Birmingham": 19
+  },
+  "perLeadType": {
+   "tax-sale": 1252,
+   "sheriff-sale": 120,
+   "pre-foreclosure (sheriff sale)": 76,
+   "tax-foreclosure sale": 33,
+   "unsafe-building/demolition-list": 25,
+   "city lien": 21,
+   "code violation (nuisance abatement)": 20,
+   "HOA lien": 15,
+   "judgment": 14,
+   "pre-foreclosure (trustee sale)": 12,
+   "tax-foreclosure (sheriff sale)": 10,
+   "tax-forfeited (from 2025 forfeited-lands sale list)": 9,
+   "mechanic's lien": 9,
+   "tax-forfeited / probate-heir (from 2025 forfeited-lands sale list)": 6,
+   "lis pendens": 6,
+   "vacant (new construction underway — \"Available Soon\"; owned by land bank, not a private seller)": 4,
+   "foreclosure/trustee-sale": 3,
+   "quiet-title (heir-property signal)": 3,
+   "pre-foreclosure (mortgage foreclosure sale)": 3,
+   "bank auction ($129,000, as-is)": 2,
+   "probate (land-sale petition)": 2,
+   "pre-foreclosure (foreclosure publication)": 2,
+   "pre-foreclosure (HOA lien foreclosure sale)": 2,
+   "foreclosure/trustee-sale (probate/heirs)": 1,
+   "bank auction ($125,000)": 1,
+   "foreclosure auction (vacant 5 bed/3 bath)": 1,
+   "tax-delinquent (tax deed sale, parcel 22-00-32-1-014-002.000, opening bid $9,218.66)": 1,
+   "tax-foreclosure sale (resale)": 1,
+   "pre-foreclosure (chancery foreclosure)": 1,
+   "multi-flag:2": 1,
+   "condo assessment lien": 1,
+   "judgment lien": 1
+  }
+ },
+ "leads": [
+  {
+   "id": "lead-bob-1",
+   "address": "3287 Leschallas Dr, Memphis, TN 38128",
+   "city": "Memphis",
+   "state": "TN",
+   "zip": "38128",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "Paul V Jennemann III and Kelly R Jennemann",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-10-29",
+   "saleDateRaw": "2026-10-29 12:00 PM",
+   "source": "https://www.nwpostingservices.com/documents/posting/125195 — ALAW trustee, Rocket Mortgage; courthouse Shelby County; UNVERIFIED",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Memphis rank #1 of 50 — Trustee sale 2026-10-29 (6 days out) with named owner — among the most contactable imminent sales in Memphis."
+  },
+  {
+   "id": "lead-bob-2",
+   "address": "6689 Burlingame Dr, Memphis, TN 38141",
+   "city": "Memphis",
+   "state": "TN",
+   "zip": "38141",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "Steve Marvin Sykes",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-10-29",
+   "saleDateRaw": "2026-10-29 12:00 PM",
+   "source": "https://www.nwpostingservices.com/documents/posting/125069 — ALAW trustee, CrossCountry Mortgage; courthouse Shelby County; UNVERIFIED",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Memphis rank #2 of 50 — Trustee sale 2026-10-29 (6 days out) with named owner — among the most contactable imminent sales in Memphis."
+  },
+  {
+   "id": "lead-bob-3",
+   "address": "10 W GAGE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 050036  00015; GIS: http://gis.register.shelby.tn.us/?parcelid=050036  00015; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #3 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-4",
+   "address": "100 E BELLE HAVEN",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 075069  00018; GIS: http://gis.register.shelby.tn.us/?parcelid=075069  00018; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #4 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-5",
+   "address": "100 E GAGE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 050070  00021; GIS: http://gis.register.shelby.tn.us/?parcelid=050070  00021; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #5 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-6",
+   "address": "1000 BOSTON",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 061029  00015; GIS: http://gis.register.shelby.tn.us/?parcelid=061029  00015; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #6 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-7",
+   "address": "1001 SPEED",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 021117  00011; GIS: http://gis.register.shelby.tn.us/?parcelid=021117  00011; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #7 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-8",
+   "address": "1003 EYERS",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 075090  00013; GIS: http://gis.register.shelby.tn.us/?parcelid=075090  00013; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #8 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-9",
+   "address": "1009 ALASKA",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 021116  00009; GIS: http://gis.register.shelby.tn.us/?parcelid=021116  00009; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #9 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie, "
+  },
+  {
+   "id": "lead-bob-10",
+   "address": "101 E OLIVE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 024052  00003; GIS: http://gis.register.shelby.tn.us/?parcelid=024052  00003; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #10 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-11",
+   "address": "1010 CELLA",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 061019  00048; GIS: http://gis.register.shelby.tn.us/?parcelid=061019  00048; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #11 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-12",
+   "address": "1020 TULLY",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 027003  00037; GIS: http://gis.register.shelby.tn.us/?parcelid=027003  00037; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #12 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-13",
+   "address": "1023 MISSISSIPPI",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 025025  00014; GIS: http://gis.register.shelby.tn.us/?parcelid=025025  00014; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #13 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-14",
+   "address": "1026 ETHLYN",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 034081  00022; GIS: http://gis.register.shelby.tn.us/?parcelid=034081  00022; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #14 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-15",
+   "address": "1029 ISABELLE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 038074  00014; GIS: http://gis.register.shelby.tn.us/?parcelid=038074  00014; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #15 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-16",
+   "address": "1029 S 4TH",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 013045  00008; GIS: http://gis.register.shelby.tn.us/?parcelid=013045  00008; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #16 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-17",
+   "address": "1030 ETHEL",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 061005  00024; GIS: http://gis.register.shelby.tn.us/?parcelid=061005  00024; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #17 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-18",
+   "address": "1033 RICHERT",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 042042  00033; GIS: http://gis.register.shelby.tn.us/?parcelid=042042  00033; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #18 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-19",
+   "address": "1034 HARRISON",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 042044  00016; GIS: http://gis.register.shelby.tn.us/?parcelid=042044  00016; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #19 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-20",
+   "address": "1037 S WILLETT",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 015020  00004; GIS: http://gis.register.shelby.tn.us/?parcelid=015020  00004; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #20 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-21",
+   "address": "1040 ROZELLE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 031029  00023; GIS: http://gis.register.shelby.tn.us/?parcelid=031029  00023; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #21 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-22",
+   "address": "1041 SHAWNEE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 034069  00005; GIS: http://gis.register.shelby.tn.us/?parcelid=034069  00005; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #22 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-23",
+   "address": "1041 UNIVERSITY",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 041029  00032; GIS: http://gis.register.shelby.tn.us/?parcelid=041029  00032; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #23 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-24",
+   "address": "1042 MAYBELLE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 054031  00009; GIS: http://gis.register.shelby.tn.us/?parcelid=054031  00009; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #24 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-25",
+   "address": "1049 SEATTLE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 031068  00017; GIS: http://gis.register.shelby.tn.us/?parcelid=031068  00017; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #25 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-26",
+   "address": "1049 TULLY",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 027002  00051; GIS: http://gis.register.shelby.tn.us/?parcelid=027002  00051; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #26 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-27",
+   "address": "1055 S HIGHLAND",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 058005  00048; GIS: http://gis.register.shelby.tn.us/?parcelid=058005  00048; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #27 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-28",
+   "address": "1056 PALERMO",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 034069  00026; GIS: http://gis.register.shelby.tn.us/?parcelid=034069  00026; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #28 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-29",
+   "address": "1057 DECATUR",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 021049  00021; GIS: http://gis.register.shelby.tn.us/?parcelid=021049  00021; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #29 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-30",
+   "address": "1059 GREENWOOD",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 026013  00015; GIS: http://gis.register.shelby.tn.us/?parcelid=026013  00015; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #30 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-31",
+   "address": "1061 MOREHEAD",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 021001  00013; GIS: http://gis.register.shelby.tn.us/?parcelid=021001  00013; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #31 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-32",
+   "address": "1064 PEARCE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 027037  00058; GIS: http://gis.register.shelby.tn.us/?parcelid=027037  00058; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #32 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-33",
+   "address": "1067 ROSEWOOD",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 034067  00013; GIS: http://gis.register.shelby.tn.us/?parcelid=034067  00013; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #33 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-34",
+   "address": "1068 LATHAM",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 013045  00019; GIS: http://gis.register.shelby.tn.us/?parcelid=013045  00019; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #34 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-35",
+   "address": "107 W DISON",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 035059  00007; GIS: http://gis.register.shelby.tn.us/?parcelid=035059  00007; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #35 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-36",
+   "address": "1080 MOREHEAD",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 021049  00034; GIS: http://gis.register.shelby.tn.us/?parcelid=021049  00034; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #36 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-37",
+   "address": "1083 CAPITAL",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 040015  00004; GIS: http://gis.register.shelby.tn.us/?parcelid=040015  00004; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #37 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-38",
+   "address": "1092 E CHICAGO",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 040024  00037; GIS: http://gis.register.shelby.tn.us/?parcelid=040024  00037; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #38 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-39",
+   "address": "1092 SMITH",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 040015  00021; GIS: http://gis.register.shelby.tn.us/?parcelid=040015  00021; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #39 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-40",
+   "address": "1093 S ORLEANS",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 025033  00010; GIS: http://gis.register.shelby.tn.us/?parcelid=025033  00010; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #40 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-41",
+   "address": "1094 GRAND",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 061008  00018; GIS: http://gis.register.shelby.tn.us/?parcelid=061008  00018; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #41 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-42",
+   "address": "1104 BARTON",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 013012  00017; GIS: http://gis.register.shelby.tn.us/?parcelid=013012  00017; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #42 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-43",
+   "address": "1105 RYDER",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 026004  00002; GIS: http://gis.register.shelby.tn.us/?parcelid=026004  00002; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #43 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-44",
+   "address": "1110 E WHITAKER",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 077026  00021; GIS: http://gis.register.shelby.tn.us/?parcelid=077026  00021; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #44 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-45",
+   "address": "1110 RAYMOND",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 061009  00024; GIS: http://gis.register.shelby.tn.us/?parcelid=061009  00024; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #45 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-46",
+   "address": "1115 AYERS",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 027037  00002; GIS: http://gis.register.shelby.tn.us/?parcelid=027037  00002; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #46 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-47",
+   "address": "1117 AYERS",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 039050  00024; GIS: http://gis.register.shelby.tn.us/?parcelid=039050  00024; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #47 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-48",
+   "address": "1119 S FOURTH",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 013048  00008; GIS: http://gis.register.shelby.tn.us/?parcelid=013048  00008; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #48 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-49",
+   "address": "112 E GAGE",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 050070  00019; GIS: http://gis.register.shelby.tn.us/?parcelid=050070  00019; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #49 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-50",
+   "address": "113 APPLETON",
+   "city": "",
+   "state": "TN",
+   "zip": "",
+   "county": "Shelby County",
+   "market": "Memphis",
+   "ownerName": "not shown in source",
+   "leadType": "tax-sale",
+   "saleDate": "2026-10-27",
+   "saleDateRaw": "2026-10-27",
+   "source": "Shelby County Trustee tax sale CSV (TS2302)",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "ParcelID 076035  00262; GIS: http://gis.register.shelby.tn.us/?parcelid=076035  00262; no owner name, bid, or city/ZIP in source — needs GIS enrichment before outreach ‖ Best-of-the-Best 2026-10-23: Memphis rank #50 of 50 — Shelby County tax sale 2026-10-27 (4 days out). No owner published — needs GIS enrichment before outreach. Ties with 1,100+ tax-sale parcels on every criterion; within the tie,"
+  },
+  {
+   "id": "lead-bob-51",
+   "address": "1058 W 33RD ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #1 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-52",
+   "address": "1132 W 28TH ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #2 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-53",
+   "address": "1226 CHURCHMAN AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #3 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-54",
+   "address": "1517 S WHITTIER PL, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #4 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-55",
+   "address": "2023 N OXFORD ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #5 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-56",
+   "address": "2318 N PARKER AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #6 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-57",
+   "address": "2709 FOLTZ ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #7 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-58",
+   "address": "2845 N OLNEY ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #8 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-59",
+   "address": "3329 E NEW YORK ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #9 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-60",
+   "address": "336 LEEDS AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #10 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-61",
+   "address": "349 S DEARBORN ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #11 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-62",
+   "address": "3521 STATION ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #12 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-63",
+   "address": "3610 PROSPECT ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #13 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-64",
+   "address": "3626 N KENWOOD AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #14 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-65",
+   "address": "4210 FAIRVIEW TERRACE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #15 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-66",
+   "address": "48 N BRADLEY AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #16 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-67",
+   "address": "4806 E WASHINGTON ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #17 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-68",
+   "address": "4999 W CAVEN ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #18 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-69",
+   "address": "5035 E 39TH ST (BLDG# 5025), Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #19 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-70",
+   "address": "5635 W 38TH ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #20 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-71",
+   "address": "61 E REGENT ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #21 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-72",
+   "address": "622 N TEMPLE AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #22 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-73",
+   "address": "63 N KEYSTONE AVE, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-04-18",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-04-18)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #23 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-74",
+   "address": "653 N RURAL ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #24 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-75",
+   "address": "937 W 26TH ST, Indianapolis, IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "zip": "",
+   "county": "Marion County",
+   "market": "Indianapolis",
+   "ownerName": "n/a (not shown)",
+   "leadType": "unsafe-building/demolition-list",
+   "saleDate": "2024-08-22",
+   "saleDateRaw": "n/a (demo bid pkg due 2024-08-22)",
+   "source": "DBNS USB list",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "demolition"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Indianapolis rank #25 of 25 — Unsafe-building/demolition list — no sale date, no owner published. Included because every dated Indianapolis lead (the 10/16 sheriff sale) is already past."
+  },
+  {
+   "id": "lead-bob-76",
+   "address": "2208 EXETER AVE, Bessemer, AL",
+   "city": "Bessemer",
+   "state": "AL",
+   "zip": "",
+   "county": "Jefferson",
+   "market": "Birmingham",
+   "ownerName": "Estate of Annie B. Scott (PR Gregory Scott)",
+   "leadType": "probate (land-sale petition)",
+   "saleDate": null,
+   "saleDateRaw": "",
+   "source": "The Western Star legal notices 10/16/2026 — https://thewesternstar.news",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "probate"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case 25BES000229; probate land-sale hearing 2026-10-23 1:30 PM; address published in notice ‖ Best-of-the-Best 2026-10-23: Birmingham rank #1 of 8 — Probate land-sale hearing TODAY 2026-10-23 — estate selling land, personal representative named."
+  },
+  {
+   "id": "lead-bob-77",
+   "address": "3217 AVE C, Bessemer, AL",
+   "city": "Bessemer",
+   "state": "AL",
+   "zip": "",
+   "county": "Jefferson",
+   "market": "Birmingham",
+   "ownerName": "Craver & Ashanti (plaintiffs) v. Eugene Hill & heirs",
+   "leadType": "quiet-title (heir-property signal)",
+   "saleDate": null,
+   "saleDateRaw": "",
+   "source": "The Western Star legal notices 10/16/2026 — https://thewesternstar.news",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV-2026-900678.00; Parcel 38-00-02-3-014-003.000; answer deadline 2026-10-23; Bessemer division ‖ Best-of-the-Best 2026-10-23: Birmingham rank #2 of 8 — Quiet-title answer deadline TODAY 2026-10-23 — heir-property signal; parties named in the legal notice."
+  },
+  {
+   "id": "lead-bob-78",
+   "address": "1203 7TH PL, Pleasant Grove, AL",
+   "city": "Pleasant Grove",
+   "state": "AL",
+   "zip": "",
+   "county": "Jefferson",
+   "market": "Birmingham",
+   "ownerName": "Mercury Funding LLC v. Judy L. White et al.",
+   "leadType": "quiet-title (heir-property signal)",
+   "saleDate": null,
+   "saleDateRaw": "",
+   "source": "The Western Star legal notices 10/16/2026 — https://thewesternstar.news",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case 68-CV-2022-900610.00; Parcel 30-00-07-1-004-008.000; answer deadline 2026-11-15 ‖ Best-of-the-Best 2026-10-23: Birmingham rank #3 of 8 — Quiet-title answer deadline 2026-11-15 (23 days out) — heir-property signal; parties named in the legal notice."
+  },
+  {
+   "id": "lead-bob-79",
+   "address": "1726 EXETER AVE, Bessemer, AL",
+   "city": "Bessemer",
+   "state": "AL",
+   "zip": "",
+   "county": "Jefferson",
+   "market": "Birmingham",
+   "ownerName": "Moussa Adamou v. The Evans Group LLC et al.",
+   "leadType": "quiet-title (heir-property signal)",
+   "saleDate": null,
+   "saleDateRaw": "",
+   "source": "The Western Star legal notices 10/16/2026 — https://thewesternstar.news",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV-2026-000018.00; Parcel 38-00-10-3-009-014.000; answer deadline 2026-11-29 ‖ Best-of-the-Best 2026-10-23: Birmingham rank #4 of 8 — Quiet-title answer deadline 2026-11-29 (37 days out) — heir-property signal; parties named in the legal notice."
+  },
+  {
+   "id": "lead-bob-80",
+   "address": "1013 Jeffrey Dr, Birmingham, AL 35235",
+   "city": "Birmingham",
+   "state": "AL",
+   "zip": "35235",
+   "county": "Jefferson County",
+   "market": "Birmingham",
+   "ownerName": "n/a (not shown)",
+   "leadType": "foreclosure auction (vacant 5 bed/3 bath)",
+   "saleDate": null,
+   "saleDateRaw": "n/a",
+   "source": "ServiceLink Auction",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "auction"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Birmingham rank #5 of 8 — Foreclosure auction listing (vacant 5 bed/3 bath per source) — no date or owner published; live listing, ranked on type strength."
+  },
+  {
+   "id": "lead-bob-81",
+   "address": "1045 50th St S, Birmingham, AL 35222",
+   "city": "Birmingham",
+   "state": "AL",
+   "zip": "35222",
+   "county": "Jefferson County",
+   "market": "Birmingham",
+   "ownerName": "n/a (not shown)",
+   "leadType": "bank auction ($125,000)",
+   "saleDate": null,
+   "saleDateRaw": "n/a",
+   "source": "homes.com auctions",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "auction"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Birmingham rank #6 of 8 — Bank auction listing — no date or owner published; weakest Birmingham tier, but a live listing."
+  },
+  {
+   "id": "lead-bob-82",
+   "address": "2619 Gaylon St, Birmingham, AL 35235",
+   "city": "Birmingham",
+   "state": "AL",
+   "zip": "35235",
+   "county": "Jefferson County",
+   "market": "Birmingham",
+   "ownerName": "n/a (not shown)",
+   "leadType": "bank auction ($129,000, as-is)",
+   "saleDate": null,
+   "saleDateRaw": "n/a",
+   "source": "homes.com auctions",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "auction"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Birmingham rank #7 of 8 — Bank auction listing — no date or owner published; weakest Birmingham tier, but a live listing."
+  },
+  {
+   "id": "lead-bob-83",
+   "address": "5190 Memory Ln, Mount Olive, AL 35117",
+   "city": "Mount Olive",
+   "state": "AL",
+   "zip": "35117",
+   "county": "Jefferson County",
+   "market": "Birmingham",
+   "ownerName": "n/a (not shown)",
+   "leadType": "bank auction ($129,000, as-is)",
+   "saleDate": null,
+   "saleDateRaw": "n/a",
+   "source": "homes.com auctions",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "auction"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Birmingham rank #8 of 8 — Bank auction listing — no date or owner published; weakest Birmingham tier, but a live listing."
+  },
+  {
+   "id": "lead-bob-84",
+   "address": "10110 FORUM W DR, Houston, TX 77036",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77036",
+   "county": "Harris",
+   "market": "Houston",
+   "ownerName": "NATALY PALOMO, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Pct 7 tax-sale PDF — https://pbfcm.com/docs/taxdocs/sales/11-2026harrispct7taxsale.pdf",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Condo unit #524, Independent Winfield Condo Sec 2; min bid $6,981.92; sale 11/03/2026 10:00 AM, Bayou City Event Center, 9401 Knight Rd, Houston TX 77045 ‖ Best-of-the-Best 2026-10-23: Houston rank #1 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-85",
+   "address": "1103 Foley Rd, Crosby, TX 77532",
+   "city": "Crosby",
+   "state": "TX",
+   "zip": "77532",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "RONALD THOMAS MURPHY (2 tracts, selling together)",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #2 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-86",
+   "address": "11306 Sagevale Ln, Houston, TX 77089",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77089",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "LORENZO P BETANCOURT",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #3 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-87",
+   "address": "1200 Magnolia Ln, Kingwood, TX 77339",
+   "city": "Kingwood",
+   "state": "TX",
+   "zip": "77339",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "SHU FANG HSU",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #4 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-88",
+   "address": "1203 Jackson Ave, Pasadena, TX 77506",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77506",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "ANTONIO TORRES AVINA, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #5 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-89",
+   "address": "12129 Ticonderoga Rd, Houston, TX 77044",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77044",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "MARTIN HERRERA",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #6 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-90",
+   "address": "12438 PALMWAY ST, Houston, TX 77034",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77034",
+   "county": "Harris",
+   "market": "Houston",
+   "ownerName": "PATRICIA MARYBEL VALDEZ, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Pct 8 tax-sale PDF — https://pbfcm.com/docs/taxdocs/sales/11-2026harrispct8taxsale.pdf",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Pasadena Gulf Palms Sec 3 LT 10 BLK 21; min bid $45,180.00; sale 11/03/2026 10:00 AM ‖ Best-of-the-Best 2026-10-23: Houston rank #7 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-91",
+   "address": "13362 Knollcrest St, Houston, TX 77015",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77015",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "JOHN GILBERT GONZALEZ ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #8 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-92",
+   "address": "15002 Elstree Dr, Channelview, TX 77530",
+   "city": "Channelview",
+   "state": "TX",
+   "zip": "77530",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "JONATHAN A ESCOBAR AND NELIDA YADIRA GUERRA MELGAR, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #9 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-93",
+   "address": "15718 Amapola Dr, Houston, TX 77083",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77083",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "RICHARD A KLEIN ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 5 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #10 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-94",
+   "address": "17625 EL CAMINO REAL, Houston, TX 77058",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77058",
+   "county": "Harris",
+   "market": "Houston",
+   "ownerName": "PBGS LA ROCHELE REALTY LLC",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Pct 8 tax-sale PDF — https://pbfcm.com/docs/taxdocs/sales/11-2026harrispct8taxsale.pdf",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Commercial, TR 1Z-3, adjudged value $5,518,175; min bid $440,979.63; sale 11/03/2026 10:00 AM ‖ Best-of-the-Best 2026-10-23: Houston rank #11 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-95",
+   "address": "17629 EL CAMINO REAL, Houston, TX 77058",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77058",
+   "county": "Harris",
+   "market": "Houston",
+   "ownerName": "PBGS LA ROCHELE REALTY LLC",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Pct 8 tax-sale PDF — https://pbfcm.com/docs/taxdocs/sales/11-2026harrispct8taxsale.pdf",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Commercial, TR 1Z-Z, adjudged value $5,531,979; min bid $442,079.34; sale 11/03/2026 10:00 AM ‖ Best-of-the-Best 2026-10-23: Houston rank #12 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-96",
+   "address": "17850 Pitcairn Rd, Hockley, TX 77447",
+   "city": "Hockley",
+   "state": "TX",
+   "zip": "77447",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "ROMAN SIBRIAN, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #13 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-97",
+   "address": "19143 Providence Sq, Hockley, TX 77447",
+   "city": "Hockley",
+   "state": "TX",
+   "zip": "77447",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "SAUL GARCIA",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #14 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-98",
+   "address": "20014 Upland Creek Dr, Katy, TX 77449",
+   "city": "Katy",
+   "state": "TX",
+   "zip": "77449",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "GURSHARN SINGH, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 5 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #15 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-99",
+   "address": "24922 Wilson St, Tomball, TX 77375",
+   "city": "Tomball",
+   "state": "TX",
+   "zip": "77375",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "JOHN HILDEBRANDT, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #16 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-100",
+   "address": "2737 Foster Hill Dr, Houston, TX 77345",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77345",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "WENDY J FOSTER, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #17 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-101",
+   "address": "305 Campbell Ave, Pasadena, TX 77502",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77502",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "SOTERO LUNA JR",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #18 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-102",
+   "address": "411 TEXAS ST, Tomball, TX 77375",
+   "city": "Tomball",
+   "state": "TX",
+   "zip": "77375",
+   "county": "Harris",
+   "market": "Houston",
+   "ownerName": "ROBERT WAYNE WHITE",
+   "leadType": "tax-foreclosure sale (resale)",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Pct 4 tax-resale PDF — https://pbfcm.com/docs/taxdocs/sales/11-2026harrispct4taxresale.pdf",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Struck-off RESALE; Tomball LT 44 BLK 79, Tomball ISD; min bid $8,000.00; sale 11/03/2026 10:00 AM ‖ Best-of-the-Best 2026-10-23: Houston rank #19 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-103",
+   "address": "411 Trichelle St, Pasadena, TX 77506",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77506",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "MELTON ANDERSON ROGERS",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #20 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-104",
+   "address": "420 Charles St, Humble, TX 77338",
+   "city": "Humble",
+   "state": "TX",
+   "zip": "77338",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "MARIO G MOLINA",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #21 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-105",
+   "address": "4825 2ND ST, Pasadena, TX 77504",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77504",
+   "county": "Harris",
+   "market": "Houston",
+   "ownerName": "ROSALVA PRUNEDA CANTU",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Pct 8 tax-sale PDF — https://pbfcm.com/docs/taxdocs/sales/11-2026harrispct8taxsale.pdf",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Pasadena Highland Acres LT 182; min bid $8,427.82; sale 11/03/2026 10:00 AM ‖ Best-of-the-Best 2026-10-23: Houston rank #22 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-106",
+   "address": "4834 Saunders Rd, Houston, TX 77093",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77093",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "JOHN H KEASLING JR AND MARY K (KATHY) KEASLING",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #23 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-107",
+   "address": "5735 Wood Creek Way, Houston, TX 77017",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77017",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "JOHN T LONGSWORTH JR",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #24 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-108",
+   "address": "606 West Ave, Pasadena, TX 77502",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77502",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "INDOMINUS CONSULTING, LLC",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #25 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-109",
+   "address": "6901 Carver Rd, Houston, TX 77091",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77091",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "RICHARD TRAVIS JAMARR RICHARD ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 1 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #26 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-110",
+   "address": "7026 Pinetex Dr, Humble, TX 77396",
+   "city": "Humble",
+   "state": "TX",
+   "zip": "77396",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "ALMA RUTH BETANCOURT CHAVEZ, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #27 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-111",
+   "address": "7118 John Ralston Rd, Houston, TX 77044",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77044",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "MARTIN HERRERA",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 3 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #28 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-112",
+   "address": "714 Missouri St, South Houston, TX 77587",
+   "city": "South Houston",
+   "state": "TX",
+   "zip": "77587",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "VALERIE RAMIREZ, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #29 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-113",
+   "address": "7162 Valeview Dr, Houston, TX 77072",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77072",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "SUAH L RODRIGUEZ LEDESMA ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 5 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #30 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-114",
+   "address": "8103 Summer Trail Dr, Houston, TX 77040",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77040",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "ALFONSO AVILA",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 1 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #31 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-115",
+   "address": "8419 Moon Beam St, Houston, TX 77088",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77088",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "HEIRS OF LAURENA MIMS",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 1 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #32 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-116",
+   "address": "904 Willow St, Pasadena, TX 77506",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77506",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "MARIO DE LOS SANTOS, ET AL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 2 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #33 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-117",
+   "address": "0 Cedar Woods Pl, Houston, TX 77068",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77068",
+   "county": "Harris County",
+   "market": "Houston",
+   "ownerName": "JACQUELINE MORRIS MANUEL",
+   "leadType": "tax-foreclosure sale",
+   "saleDate": "2026-11-03",
+   "saleDateRaw": "2026-11-03",
+   "source": "PBFCM Harris Pct 4 tax-sale PDF",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "tax",
+    "foreclosure"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Houston rank #34 of 34 — Harris County tax-foreclosure sale 2026-11-03 (11 days out), named owner of record. All 34 Houston rows tie on every criterion — listed in address order."
+  },
+  {
+   "id": "lead-bob-118",
+   "address": "10750 CHURCHILL AVENUE, CLEVELAND 44106",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25121483; Parcel 12002069; appraised $80000; opening bid $53334 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #1 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-119",
+   "address": "11228 PARKVIEW AVE, CLEVELAND 44104",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV26134535; Parcel 12824102; appraised $90000; opening bid $60000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #2 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-120",
+   "address": "11512 CONTINENTAL AVENUE, CLEVELAND 44104",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25125088; Parcel 12825070; appraised $65000; opening bid $43334 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #3 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-121",
+   "address": "13312 14 HARVARD AVENUE, CLEVELAND 44105",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25128697; Parcel 13811071; appraised $40000; opening bid $26667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #4 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-122",
+   "address": "14806 ROCHELLE AVENUE, CLEVELAND 44135",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV26138554; Parcel 02301044; appraised $175000; opening bid $116667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #5 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-123",
+   "address": "15107 TOKAY AVENUE, MAPLE HEIGHTS 44137",
+   "city": "",
+   "state": "MA",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV23988840; Parcel 78504096; appraised $90000; opening bid $60000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #6 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-124",
+   "address": "1587 IVYDALE ROAD, CLEVELAND HEIGHTS 44118",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV26136544; Parcel 68434009; appraised $175000; opening bid $116667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #7 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-125",
+   "address": "16331 MUSKINGUM BOULEVARD, BROOK PARK 44142",
+   "city": "",
+   "state": "BR",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV24108379; Parcel 34320044; appraised $205000; opening bid $136667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #8 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-126",
+   "address": "21020 N VANCEY DRIVE, BROOK PARK 44142",
+   "city": "",
+   "state": "BR",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25114216; Parcel 34124099; appraised $230000; opening bid $153334 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #9 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-127",
+   "address": "21213 WATSON ROAD, MAPLE HEIGHTS 44137",
+   "city": "",
+   "state": "MA",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25118905; Parcel 78217095; appraised $90000; opening bid $60000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #10 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-128",
+   "address": "2145 WEST 104TH STREET, CLEVELAND 44102",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV26134122; Parcel 00517108; appraised $120000; opening bid $80000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #11 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-129",
+   "address": "279 GRAND PARK CIRCLE, BEDFORD 44146",
+   "city": "",
+   "state": "BE",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25123584; Parcel 81115015; appraised $150000; opening bid $100000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #12 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-130",
+   "address": "30580 TIMBER LN, BAY VILLAGE 44140",
+   "city": "",
+   "state": "BA",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25116092; Parcel 20130046; appraised $550000; opening bid $366667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #13 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-131",
+   "address": "3629 - 3631 MENLO ROAD, SHAKER HEIGHTS 44120",
+   "city": "",
+   "state": "SH",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25123310; Parcel 73521033; appraised $80000; opening bid $53334 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #14 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-132",
+   "address": "392 LOMBARDY DRIVE, BEREA 44017",
+   "city": "",
+   "state": "BE",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25128109; Parcel 36103076; appraised $160000; opening bid $106667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #15 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-133",
+   "address": "4169 EAST 94TH STREET, CLEVELAND 44105",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25122845; Parcel 13613121; appraised $75000; opening bid $50000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #16 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-134",
+   "address": "4474 EAST BERWALD ROAD, SOUTH EUCLID 44121",
+   "city": "",
+   "state": "SO",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV22963345; Parcel 70225043; appraised $0; opening bid $48626.82 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #17 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-135",
+   "address": "4537 WEST 150TH STREET, CLEVELAND 44135",
+   "city": "",
+   "state": "CL",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV26135223; Parcel 02316169; appraised $125000; opening bid $83334 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #18 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-136",
+   "address": "4875 EAST 93RD STREET, GARFIELD HEIGHTS 44125",
+   "city": "",
+   "state": "GA",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV26134568; Parcel 54116034; appraised $130000; opening bid $86667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #19 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-137",
+   "address": "5653 FALKIRK ROAD, LYNDHURST 44124",
+   "city": "",
+   "state": "LY",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25121750; Parcel 71427028; appraised $250000; opening bid $166667 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #20 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-138",
+   "address": "5741 EAST 146TH STREET, MAPLE HEIGHTS 44137",
+   "city": "",
+   "state": "MA",
+   "zip": "",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "not shown in source",
+   "leadType": "sheriff-sale",
+   "saleDate": null,
+   "saleDateRaw": "10/26/2026",
+   "source": "Cuyahoga County Sheriff sale site",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Case CV25118560; Parcel 78506099; appraised $135000; opening bid $90000 ‖ Best-of-the-Best 2026-10-23: Cleveland rank #21 of 25 — Cuyahoga sheriff sale 2026-10-26 (3 days out) — the only live sale wave left in this market. Owner not published in source."
+  },
+  {
+   "id": "lead-bob-139",
+   "address": "1886 Woodlawn Ave, Cleveland, OH 44106",
+   "city": "Cleveland",
+   "state": "OH",
+   "zip": "44106",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "Cuyahoga Land Bank",
+   "leadType": "vacant (new construction underway — \"Available Soon\"; owned by land bank, not a private seller)",
+   "saleDate": null,
+   "saleDateRaw": "none listed",
+   "source": "cuyahogalandbank.org Land Bank Homes",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Cleveland rank #22 of 25 — Land-bank property, new construction listed as 'Available Soon' — not a private seller. Weakest rows in the market; included only because Cleveland is short."
+  },
+  {
+   "id": "lead-bob-140",
+   "address": "3134 W 18 St, Cleveland, OH 44109",
+   "city": "Cleveland",
+   "state": "OH",
+   "zip": "44109",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "Cuyahoga Land Bank",
+   "leadType": "vacant (new construction underway — \"Available Soon\"; owned by land bank, not a private seller)",
+   "saleDate": null,
+   "saleDateRaw": "none listed",
+   "source": "cuyahogalandbank.org Land Bank Homes",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Cleveland rank #23 of 25 — Land-bank property, new construction listed as 'Available Soon' — not a private seller. Weakest rows in the market; included only because Cleveland is short."
+  },
+  {
+   "id": "lead-bob-141",
+   "address": "3136 W 18 St, Cleveland, OH 44109",
+   "city": "Cleveland",
+   "state": "OH",
+   "zip": "44109",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "Cuyahoga Land Bank",
+   "leadType": "vacant (new construction underway — \"Available Soon\"; owned by land bank, not a private seller)",
+   "saleDate": null,
+   "saleDateRaw": "none listed",
+   "source": "cuyahogalandbank.org Land Bank Homes",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Cleveland rank #24 of 25 — Land-bank property, new construction listed as 'Available Soon' — not a private seller. Weakest rows in the market; included only because Cleveland is short."
+  },
+  {
+   "id": "lead-bob-142",
+   "address": "3634 Ludgate Rd, Shaker Heights, OH 44120",
+   "city": "Shaker Heights",
+   "state": "OH",
+   "zip": "44120",
+   "county": "Cuyahoga County",
+   "market": "Cleveland",
+   "ownerName": "Cuyahoga Land Bank",
+   "leadType": "vacant (new construction underway — \"Available Soon\"; owned by land bank, not a private seller)",
+   "saleDate": null,
+   "saleDateRaw": "none listed",
+   "source": "cuyahogalandbank.org Land Bank Homes",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure"
+   ],
+   "flagCount": 1,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-23: Cleveland rank #25 of 25 — Land-bank property, new construction listed as 'Available Soon' — not a private seller. Weakest rows in the market; included only because Cleveland is short."
+  },
+  {
+   "id": "lead-stl-143",
+   "address": "3539 Giles Ave and 3539 Giles Ave Unit A, St. Louis, MO 63116",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Machiko Management, LLC (Bengt Erik Sanner, Manager and Sole Member)",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-02",
+   "saleDateRaw": "2026-11-02 10:00 AM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4214590, published 2026-10-12) — Sayer Law Group, P.C., Successor Trustee; sale at Civil Courts Building, 10 N Tucker Blvd",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #1 of 9 — Soonest St. Louis City trustee sale (8 days out), named borrower, street addresses published in the notice (Units 3539 and 3539A of 3537-3539 Giles Condominiums, Block 4183)."
+  },
+  {
+   "id": "lead-stl-144",
+   "address": "Lucas Lofts Condominiums Unit 304, Block 517, St. Louis, MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Johnathan Clark",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-04",
+   "saleDateRaw": "2026-11-04 9:00 AM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4221185, published 2026-10-15) — Kusnetzky, Schwartz, Rosenfeld, Sailler & Lilla, P.C., Successor Trustee; sale at East Front Door, Civil Courts Building",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #2 of 9 — Trustee sale 10 days out with named borrower. Street number NOT stated in the notice — building is Lucas Lofts (public listings place it at 1114 Lucas Ave / 1113 Washington Ave, downtown); Locator Number 0517-9-011.023 is the Assessor cross-reference."
+  },
+  {
+   "id": "lead-stl-145",
+   "address": "Lot 24, Block 3145, fronting Minnesota Ave at Primm St, St. Louis, MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Ronald W Scherer",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-05",
+   "saleDateRaw": "2026-11-05 3:00 PM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4221264, published 2026-10-16) — Millsap & Singer, P.C., Successor Trustee",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #3 of 9 — Trustee sale 11 days out with named borrower. Street number NOT stated in the notice — legal description only (Lot 24, Block 35 of Survey 3 of the former Town of Carondelet, Block 3145, fronting 25 ft on the west line of Minnesota Ave)."
+  },
+  {
+   "id": "lead-stl-146",
+   "address": "Part of Lot 4, Des Peres Place Subdivision, Block 5991, fronting Stolle St, St. Louis, MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Rebecca Gudermuth",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-05",
+   "saleDateRaw": "2026-11-05 3:00 PM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4217522, published 2026-10-16) — Millsap & Singer, P.C., Successor Trustee",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #4 of 9 — Same date and trustee as #3. Street number NOT stated in the notice — legal description only (fronting 45 ft on the east line of Stolle St)."
+  },
+  {
+   "id": "lead-stl-147",
+   "address": "Lot 76, Block 4418, fronting Richard Place, St. Louis, MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Emma Manning",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-09",
+   "saleDateRaw": "2026-11-09 9:00 AM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4221600, published 2026-10-20) — Millsap & Singer, P.C., Successor Trustee",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #5 of 9 — Trustee sale 15 days out with named borrower. Street number NOT stated in the notice — legal description only (Lot 76, Block 3 of Bryan Park, Block 4418, fronting 25 ft on the east line of Richard Place)."
+  },
+  {
+   "id": "lead-stl-148",
+   "address": "DeBaliviere Place West Condominium Phase One-C, Building 8, Unit 1E, Blocks 5509/5518, St. Louis, MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Connie Wilson",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-09",
+   "saleDateRaw": "2026-11-09 9:00 AM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4222507, published 2026-10-20) — Millsap & Singer, P.C., Successor Trustee",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #6 of 9 — Same date and trustee as #5. Street number NOT stated in the notice — condominium unit description only."
+  },
+  {
+   "id": "lead-stl-149",
+   "address": "4317 Dryden Ave, St. Louis, MO 63115",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "63115",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "TOPSTONE INV STL 1 LLC",
+   "leadType": "foreclosure/trustee-sale",
+   "saleDate": "2026-11-12",
+   "saleDateRaw": "2026-11-12 11:30 AM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4224539, published 2026-10-23) — Successor Trustee Mark A. Roy; sale at East Front Door, Civil Courts Building",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "trustee"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #7 of 9 — Trustee sale 18 days out with a published street address. Borrower is an LLC, not an individual — contact path is the entity, not a homeowner."
+  },
+  {
+   "id": "lead-stl-150",
+   "address": "4345 Delor St, St. Louis, MO 63116-1318",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "63116",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Raymia Williams (PennyMac Loan Services LLC plaintiff)",
+   "leadType": "sheriff-sale (execution)",
+   "saleDate": "2026-11-18",
+   "saleDateRaw": "2026-11-18 9:00 AM",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4223431, published 2026-10-19) — Sheriff of the City of St. Louis; Cause 2522-CC09541, General Execution 26-EXEC-1693",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "sheriff",
+    "trustee",
+    "judgment",
+    "lien"
+   ],
+   "flagCount": 4,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #8 of 9 — Court-ordered sheriff sale (execution on a judgment), 24 days out, street address published. Ranked after trustee sales on type — execution sales carry prior-lien risk."
+  },
+  {
+   "id": "lead-stl-151",
+   "address": "3931-3933 Dunnca Ave, St. Louis, MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "zip": "",
+   "county": "St. Louis City",
+   "market": "St. Louis",
+   "ownerName": "Jabulani C. Reamey (PennyMac Loan Services LLC plaintiff)",
+   "leadType": "quiet-title (foreclosure action)",
+   "saleDate": "2026-10-30",
+   "saleDateRaw": "2026-10-30 (answer deadline — not a sale)",
+   "source": "St. Louis Daily Record notice via Missouri Lawyers Media (detail 4224756, published 2026-10-22) — 22nd Judicial Circuit, Cause 2622-CC02554; Millsap & Singer, LLC for plaintiff",
+   "verificationStatus": "UNVERIFIED",
+   "flags": [
+    "foreclosure",
+    "judgment"
+   ],
+   "flagCount": 2,
+   "stage": "New Lead",
+   "score": 0,
+   "notes": "Best-of-the-Best 2026-10-25: St. Louis rank #9 of 9 — Quiet-title/foreclosure suit with an unknown (John Doe) defendant — an heir/title-cloud signal, not a sale. Defendants given 45 days after September 15, 2026 to answer. Ranked last because no sale date exists; watch for a judgment/sale to follow."
+  }
+ ],
+ "buyers": [
+  {
+   "id": "buyer-1",
+   "name": "Unnamed buyer — Memphis ad",
+   "market": "Memphis TN",
+   "city": "Memphis",
+   "state": "TN",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone hidden behind contact button",
+   "buyBox": {
+    "markets": [
+     "Memphis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "as-is",
+     "foreclosure"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Any condition, as-is, cash; foreclosure/tax/mortgage trouble; no commissions"
+   }
+  },
+  {
+   "id": "buyer-2",
+   "name": "Matthew Knight",
+   "market": "Memphis TN",
+   "city": "Memphis",
+   "state": "TN",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Named individual investor; phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "Memphis"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "repairs",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses for cash, any condition, as-is; behind on taxes, inherited, vacant, major repairs, tired landlords; may assign contract"
+   }
+  },
+  {
+   "id": "buyer-3",
+   "name": "C3 Properties Group LLC",
+   "market": "Memphis TN",
+   "city": "Memphis",
+   "state": "TN",
+   "phone": "(619) 333-0504",
+   "phoneSource": "company website c3propertiesgroup.com header",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE on their own website — no DNC check needed",
+   "notes": "CALLABLE NOW. Memphis buyer; published number is a 619 (San Diego) code — that is their listed business number.",
+   "buyBox": {
+    "markets": [
+     "Memphis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "tenant",
+     "repairs",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "As-is, no repairs; rentals with tenants, inherited, vacant, deferred maintenance; flexible closing"
+   }
+  },
+  {
+   "id": "buyer-4",
+   "name": "Robert (no surname)",
+   "market": "Memphis TN",
+   "city": "Memphis",
+   "state": "TN",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "2 ads under same contact; phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "Memphis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "tenant",
+     "repairs",
+     "probate",
+     "foreclosure"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Buys quickly, any situation; cash quickly, behind on payments, probate, foreclosure, inheritance, problem tenants, repairs, divorce"
+   }
+  },
+  {
+   "id": "buyer-5",
+   "name": "Unnamed buyer — Memphis ad",
+   "market": "Memphis TN",
+   "city": "Memphis",
+   "state": "TN",
+   "phone": "(901) 877-4462",
+   "phoneSource": "in ad image",
+   "isBusinessLine": false,
+   "callReady": "gated",
+   "dncNote": "INDIVIDUAL/UNKNOWN poster — scrub when the 901 list lands (expected Fri 2026-10-30)",
+   "notes": "CAUTION: Craigslist locates this ad in Tampa FL despite the 901 number — verify it really buys Memphis before pitching.",
+   "buyBox": {
+    "markets": [
+     "Memphis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "tenant",
+     "distressed",
+     "probate",
+     "foreclosure"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Any condition cash; fixer-uppers, distressed/vacant, inherited/probate, problem tenants, tax delinquent, code enforcement, pre-foreclosure; offer in 24h, close in 7 days"
+   }
+  },
+  {
+   "id": "buyer-6",
+   "name": "Unnamed buyer — Memphis ad",
+   "market": "Memphis TN",
+   "city": "Memphis",
+   "state": "TN",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone hidden behind contact button",
+   "buyBox": {
+    "markets": [
+     "Memphis"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [
+     "repairs",
+     "as-is",
+     "foreclosure"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "As-is, no repairs; foreclosure, tired landlords, behind on taxes/mortgage"
+   }
+  },
+  {
+   "id": "buyer-7",
+   "name": "Four Seasons Realty Property Management LLC",
+   "market": "Indianapolis IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "phone": "(317) 649-5852",
+   "phoneSource": "in ad flyer image ONLY — not confirmed on any website or public listing (checked 2026-10-29)",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE advertised in their own ad ('CALL OR TEXT') — no DNC check needed; also came back clear in the 2026-10-29 bulk scrub",
+   "notes": "CALLABLE NOW. Buys almost everything: repairs, vacant, inherited, rentals, fire/water damage, delinquent taxes. Number rests on their ad flyer — verify who answers.",
+   "buyBox": {
+    "markets": [
+     "Indianapolis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "fire",
+     "water damage",
+     "vacant",
+     "inherited",
+     "tenant",
+     "repairs",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Residential across Indianapolis area; repairs/renovations, vacant/abandoned, inherited/estate, rentals with tenants, fire/water damage, unfinished renovations, delinquent taxes; cash, as-is, paid in 2-3 weeks"
+   }
+  },
+  {
+   "id": "buyer-8",
+   "name": "Unnamed buyer — Indianapolis ad",
+   "market": "Indianapolis IN",
+   "city": "Indianapolis",
+   "state": "IN",
+   "phone": "(317) 721-8199",
+   "phoneSource": "in ad text (spelled out)",
+   "isBusinessLine": false,
+   "callReady": "callable",
+   "dncNote": "INDIVIDUAL advertiser — scrubbed 2026-10-29 vs FTC 317 list: NOT on the registry",
+   "notes": "CALLABLE NOW. Mobile homes only — niche contact, not a house buyer.",
+   "buyBox": {
+    "markets": [
+     "Indianapolis"
+    ],
+    "propertyTypes": [
+     "mobile-home"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "MOBILE HOMES ONLY — all-cash offer, closes in a timely manner"
+   }
+  },
+  {
+   "id": "buyer-9",
+   "name": "iBuyTexasProperty.com / iBuy Houses — Jon",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "361-208-4289 (printed as 361-208-iBuy)",
+   "phoneSource": "in ad text",
+   "isBusinessLine": false,
+   "callReady": "gated",
+   "dncNote": "",
+   "notes": "Runs 10+ ads; website iBuyTexasProperty.com; DNC-check before any call",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses and land; full price, fast close; Fort Bend + Montgomery County + Houston generally"
+   }
+  },
+  {
+   "id": "buyer-10",
+   "name": "BPC Development LLC (BPC Investments & Development LLC)",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "(281) 301-4737",
+   "phoneSource": "company website bpcdevelop.com",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE on their own website — no DNC check needed",
+   "notes": "CALLABLE NOW. Houses + small commercial, any condition. Runs 10+ Houston-area ads.",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "commercial"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "tenant",
+     "repairs"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses and small commercial, any condition: repairs, vacant, inherited, tenant issues; no fix-up or clean-out"
+   }
+  },
+  {
+   "id": "buyer-11",
+   "name": "Behind The Pines LLC — Kelly Sheppard",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "(409) 245-7398",
+   "phoneSource": "her public Facebook post for the company (no company website found)",
+   "isBusinessLine": false,
+   "callReady": "gated",
+   "dncNote": "INDIVIDUAL — number came from her public Facebook post, not a business site; 409 is not in his FTC lists, so manual donotcall.gov check advised",
+   "notes": "Houses needing work + rentals with problem tenants. Runs the business as an LLC but the number looks personal — check first, or one careful intro call.",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "tenant",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses needing work (stale listings, deferred maintenance, dated kitchens/baths), as-is cash, close 21 days or less; also rentals with problem tenants"
+   }
+  },
+  {
+   "id": "buyer-12",
+   "name": "Temple Cash Buyers",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "(254) 566-2702",
+   "phoneSource": "company website templecashbuyers.com",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE on their own website — no DNC check needed",
+   "notes": "CALLABLE NOW. As-is Houston + surrounding; complicated situations welcome.",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "tenant",
+     "repairs",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Residential as-is, Houston + surrounding; repairs, tenants, vacant, inherited, military PCS; buys properties others avoid"
+   }
+  },
+  {
+   "id": "buyer-13",
+   "name": "Ro — InGoodFaithHelp.com",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "(713) 248-6405",
+   "phoneSource": "company website ingoodfaithhelp.com contact page",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE on his own website contact page — no DNC check needed",
+   "notes": "CALLABLE NOW. Houston metro, fast close, 10+ yrs in business.",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "All Houston metro + surrounding cities; fast close; 10+ years in business"
+   }
+  },
+  {
+   "id": "buyer-14",
+   "name": "Joeseph Samuel",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Individual buyer; phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Cash buyer wanting 5 properties this month, off market; all types/conditions incl. fixer-uppers, vacant, inherited; close in 30 days"
+   }
+  },
+  {
+   "id": "buyer-15",
+   "name": "(unnamed poster — 6 neighborhood ads)",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Same template across Galena Park, Pasadena, Homestead, Aldine, Acres Homes, Channelview (preforeclosure); identity unconfirmed — may be same poster as the probate ad below",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "fire",
+     "distressed"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Homes for cash; free 7-day no-obligation cash proposal; distressed situations incl. fire-damaged"
+   }
+  },
+  {
+   "id": "buyer-16",
+   "name": "(unnamed inherited/probate buyer)",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Posted 1 minute before the Galena Park ad — possibly the same poster",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "multifamily"
+    ],
+    "conditions": [
+     "inherited",
+     "as-is",
+     "probate"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Inherited/probate homes as-is; works with probate attorneys and title companies; multiple heirs OK"
+   }
+  },
+  {
+   "id": "buyer-17",
+   "name": "(unnamed local buyer)",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [
+     "inherited",
+     "repairs"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses any condition: moving, inherited, behind on payments, divorce, tired landlord, repairs"
+   }
+  },
+  {
+   "id": "buyer-18",
+   "name": "(unnamed portfolio buyer)",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Also a multi-unit buyer — relevant to the later 2-4 unit bridge",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "land",
+     "multifamily"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Homes and multi-unit buildings; portfolio offloads/retiring landlords; close to top dollar, cash, quick close"
+   }
+  },
+  {
+   "id": "buyer-19",
+   "name": "(unnamed distressed-property poster)",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "3 near-identical ads posted within 2 minutes — grouped as one poster",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "as-is",
+     "distressed"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Distressed properties as-is, fast close, cash; Houston & surrounding"
+   }
+  },
+  {
+   "id": "buyer-20",
+   "name": "Southern MH — Chris Alford",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Mobile-home buyer only — niche; 3-4 ads",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "land",
+     "mobile-home"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "MOBILE HOMES ONLY — used singlewides/doublewides, all conditions, with or without land; handles teardown/transport/title"
+   }
+  },
+  {
+   "id": "buyer-21",
+   "name": "CashPaperBuyer",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "",
+   "phoneSource": "none — website cashpaperbuyer.com",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Note buyer — keep for reference only",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "NOT A HOUSE BUYER — buys seller-financed real estate NOTES, Texas and nationwide"
+   }
+  },
+  {
+   "id": "buyer-22",
+   "name": "(unnamed local buyer)",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Same ad template as a Houston unnamed buyer — possibly a national operation; phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [
+     "inherited",
+     "repairs"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses any condition in Cleveland: moving, inherited, behind on payments, divorce, tired landlord, repairs"
+   }
+  },
+  {
+   "id": "buyer-23",
+   "name": "TolViva",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "(216) 260-4696",
+   "phoneSource": "in ad image",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE in their own ad/website — no DNC check needed",
+   "notes": "CALLABLE NOW. National buyer, any condition.",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "repairs"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses for cash, any condition, nationwide; no repairs/cleaning/commissions; seller picks closing date"
+   }
+  },
+  {
+   "id": "buyer-24",
+   "name": "MAC Capital Enterprises LLC",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "",
+   "phoneSource": "NOT FOUND — their site macenterprisellc.com literally shows a placeholder instead of a number",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "IMPORTANT: ad says OWNERS ONLY, NO ASSIGNMENTS — may not take wholesale assignments; no public phone exists — reachable only via Craigslist reply",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "duplex",
+     "land"
+    ],
+    "conditions": [
+     "vacant",
+     "tenant",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Fixer-uppers and rentals for cash, as-is, incl. duplexes and vacant land; west side, Old Brooklyn, Slavic Village, east side; occupied/with tenants OK"
+   }
+  },
+  {
+   "id": "buyer-25",
+   "name": "(unnamed cash buyer)",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Properties any condition, Cleveland and suburbs; cash buyer, can close immediately"
+   }
+  },
+  {
+   "id": "buyer-26",
+   "name": "(unnamed — weak lead)",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Weak/vague lead — low priority",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Rental property in Cleveland (one-line ad, vague)"
+   }
+  },
+  {
+   "id": "buyer-27",
+   "name": "(unnamed — borderline)",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Borderline — takeover not purchase; low priority",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [
+     "vacant"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Takes over unwanted parcels/vacant land owners are tired of maintaining — NOT a cash buyer for lots (will not pay for vacant lots, underwater homes, or housing-court properties)"
+   }
+  },
+  {
+   "id": "buyer-28",
+   "name": "Pat",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "(216) 324-3934",
+   "phoneSource": "in ad text",
+   "isBusinessLine": false,
+   "callReady": "gated",
+   "dncNote": "INDIVIDUAL buyer — scrub when the 216 list lands (expected Fri 2026-10-30)",
+   "notes": "As-is cash; inherited/probate, back taxes, code violations. Strong fit. He advertises the number himself; the scrub is cheap insurance because it may be his personal cell.",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "inherited",
+     "as-is",
+     "probate"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses as-is for cash; inherited/probate, back property taxes, code violations; Cuyahoga, Lake, Geauga, north Summit, north Portage"
+   }
+  },
+  {
+   "id": "buyer-29",
+   "name": "MHP Fixers",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "1-877-356-4698",
+   "phoneSource": "company website mhpfixers.com",
+   "isBusinessLine": false,
+   "callReady": "callable",
+   "dncNote": "BUSINESS toll-free line on their own website — no DNC check needed",
+   "notes": "CALLABLE NOW. Distressed SFR + multifamily, occupied/damaged. Service that also buys — borderline fit.",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "multifamily"
+    ],
+    "conditions": [
+     "distressed"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Distressed SFR and multifamily, occupied/damaged/complicated properties; also squatter/eviction services; nationwide"
+   }
+  },
+  {
+   "id": "buyer-30",
+   "name": "Mike Smith",
+   "market": "Cleveland OH",
+   "city": "Cleveland",
+   "state": "OH",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "DO NOT CALL — inactive per his own ad",
+   "buyBox": {
+    "markets": [
+     "Cleveland"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "EXCLUDED — ad states he is NO LONGER LOOKING as of 2026-09-29"
+   }
+  },
+  {
+   "id": "buyer-31",
+   "name": "MAC Capital Enterprises LLC",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "NOT FOUND — their site macenterprisellc.com literally shows a placeholder instead of a number",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Same company as the Cleveland MAC Capital ad (which said owners only / no assignments — verify assignment policy before pitching); no public phone — Craigslist reply only",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "land",
+     "multifamily"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "tenant"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "SFR, small multi-family, and land, any condition: vacant, inherited, needs work, behind on taxes, tenants in place; Carondelet, Dutchtown, Holly Hills, north/south city; out-of-state buyer"
+   }
+  },
+  {
+   "id": "buyer-32",
+   "name": "(unnamed cash buyer — St. Louis County)",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "inherited"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses with too many fixes / too much stuff, inherited; cash, no fees, quick close"
+   }
+  },
+  {
+   "id": "buyer-33",
+   "name": "(unnamed buyer)",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "inherited",
+     "repairs",
+     "as-is",
+     "foreclosure"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses as-is, cash, close in 30 days or sooner; major repairs, foreclosure, inherited, fast move"
+   }
+  },
+  {
+   "id": "buyer-34",
+   "name": "(unnamed high-volume poster — 11+ ads)",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Cluster of 11+ ads, identical wording — identity unconfirmed; duplex/2-fam appetite relevant to the 2-4 unit bridge",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "duplex"
+    ],
+    "conditions": [
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses as-is for cash, close 10-15 days; St. Louis city + County + Jefferson County; also actively wants DUPLEXES and 2-FAMILY in 63109/63139/63123-63129"
+   }
+  },
+  {
+   "id": "buyer-35",
+   "name": "The Wholesaling Diva",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Note: she is a wholesaler herself — potential JV/buyer",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "inherited",
+     "tenant",
+     "repairs"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses to sell quickly, no repairs, inherited, tenant problems; no closing costs, flexible closing"
+   }
+  },
+  {
+   "id": "buyer-36",
+   "name": "Ron (land buyer)",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Land buyer only — niche; phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "LAND ONLY — 1 to 5 acres in Jefferson or Franklin County MO, utilities available, with/without building, at or below $35000"
+   }
+  },
+  {
+   "id": "buyer-37",
+   "name": "(unnamed fixer-upper buyer)",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Weak fit — single purchase",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "One fixer-upper house in south county or Metro East; wants OWNER FINANCING (cash not stated)"
+   }
+  },
+  {
+   "id": "buyer-38",
+   "name": "Gateway Home Solutions",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "(501) 636-8481 main office; (501) 636-8770 acquisitions",
+   "phoneSource": "company website gatewayhomesolutions.com footer",
+   "isBusinessLine": false,
+   "callReady": "gated",
+   "dncNote": "",
+   "notes": "501 is an Arkansas area code on their own site — confirm they actively buy St. Louis on the call; the ACQUISITIONS number is the right line for a wholesaler; DNC-check before any call",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "vacant",
+     "inherited",
+     "repairs",
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Junk houses as-is needing repairs: ugly, outdated, damaged, vacant, inherited; close 14-30 days; says they beat competitors"
+   }
+  },
+  {
+   "id": "buyer-39",
+   "name": "Jason",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "",
+   "phoneSource": "none",
+   "isBusinessLine": false,
+   "callReady": "no-phone",
+   "dncNote": "",
+   "notes": "Phone behind contact button",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Relocating homeowners: fair price, quick close, speed over top dollar; Lemay / Telegraph Road, south St. Louis"
+   }
+  },
+  {
+   "id": "buyer-40",
+   "name": "Raad Buys Houses — Raad",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "(314) 681-3239",
+   "phoneSource": "company website raadbuyshouses.com",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE on their own website — no DNC check needed",
+   "notes": "CALLABLE NOW. St. Charles + St. Louis, cash as-is.",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "Houses fast, cash, as-is; St. Charles and St. Louis area; no Realtor fees or closing costs"
+   }
+  },
+  {
+   "id": "buyer-cr-41",
+   "name": "Gateway Home Solutions",
+   "market": "St. Louis MO",
+   "city": "St. Louis",
+   "state": "MO",
+   "phone": "(501) 636-8770 acquisitions / (501) 636-8481 main",
+   "phoneSource": "call-ready sheet 2026-10-29",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINES on their own website — no DNC check needed",
+   "notes": "CALLABLE NOW. Junk houses as-is, close 14-30 days. Call the ACQUISITIONS line. Arkansas codes — confirm they actively buy St. Louis.",
+   "buyBox": {
+    "markets": [
+     "St. Louis"
+    ],
+    "propertyTypes": [
+     "any"
+    ],
+    "conditions": [
+     "as-is"
+    ],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "CALLABLE NOW. Junk houses as-is, close 14-30 days. Call the ACQUISITIONS line. Arkansas codes — confirm they actively buy St. Louis."
+   }
+  },
+  {
+   "id": "buyer-cr-42",
+   "name": "iBuyTexasProperty.com — Jon",
+   "market": "Houston TX",
+   "city": "Houston",
+   "state": "TX",
+   "phone": "361-208-4289",
+   "phoneSource": "call-ready sheet 2026-10-29",
+   "isBusinessLine": true,
+   "callReady": "callable",
+   "dncNote": "BUSINESS LINE printed in his own ads — no DNC check needed",
+   "notes": "CALLABLE NOW. Houses and land, Houston + Fort Bend + Montgomery County. Runs 10+ ads.",
+   "buyBox": {
+    "markets": [
+     "Houston"
+    ],
+    "propertyTypes": [
+     "land"
+    ],
+    "conditions": [],
+    "maxPrice": null,
+    "closeSpeed": "",
+    "proofOfFunds": null,
+    "assignmentsOk": null,
+    "summary": "CALLABLE NOW. Houses and land, Houston + Fort Bend + Montgomery County. Runs 10+ ads."
+   }
+  }
+ ]
+}
